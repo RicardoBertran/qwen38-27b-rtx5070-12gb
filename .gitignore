@@ -1,0 +1,34 @@
+# Pesos y formatos de modelos
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+models/
+blobs/
+
+# Prompt generado y resultados pesados
+pruebas/prompt-largo.txt
+*.log
+*.mp4
+*.mkv
+*.mov
+
+# Configuración local y secretos
+.env
+.env.*
+*.local.ini
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Temporales
+tmp/
+temp/
+*.tmp
